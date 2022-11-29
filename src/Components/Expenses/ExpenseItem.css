@@ -35,7 +35,7 @@
   border-radius: 12px;
 }
 
-.expense-item__Ebutton {
+.expense-item__button1 {
   border: none;
   text-decoration: none;
   padding: 8px 12px;
@@ -47,11 +47,11 @@
   font-weight: 550;
   font-size: 13px;
 }
-.expense-item__Dbutton {
+.expense-item__button2 {
   border: none;
   text-decoration: none;
   padding: 8px 12px;
-  background-color: red;
+  background-color: rgb(21, 161, 117);
   color: #fff;
   border-radius: 5px;
   margin: 0px 5px;

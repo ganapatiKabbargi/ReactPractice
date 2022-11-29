@@ -21,9 +21,6 @@ const ExpenseItem = (props) => {
       <button className="expense-item__button1" onClick={clickHandler}>
         Change title
       </button>
-      <button className="expense-item__button2" onClick={clickHandler2}>
-        Change Expense
-      </button>
     </Card>
   );
 };

@@ -6,7 +6,7 @@ import ExpenseItem from "./ExpenseItem";
 const Expenses = (props) => {
   return (
     <Card className="expenses">
-      <ExpenseItem
+      {/* <ExpenseItem
         title={props.item[0].title}
         amount={props.item[0].amount}
         date={props.item[0].date}
@@ -25,7 +25,16 @@ const Expenses = (props) => {
         title={props.item[3].title}
         amount={props.item[3].amount}
         date={props.item[3].date}
-      />
+      /> */}
+
+      {props.item.map((exp, idx) => (
+        <ExpenseItem
+          title={exp.title}
+          amount={exp.amount}
+          date={exp.date}
+          key={idx}
+        />
+      ))}
     </Card>
   );
 };

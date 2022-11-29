@@ -35,6 +35,31 @@
   border-radius: 12px;
 }
 
+.expense-item__Ebutton {
+  border: none;
+  text-decoration: none;
+  padding: 8px 12px;
+  background-color: green;
+  color: #fff;
+  border-radius: 5px;
+  margin: 0px 5px 0px 10px;
+  border: 1px solid white;
+  font-weight: 550;
+  font-size: 13px;
+}
+.expense-item__Dbutton {
+  border: none;
+  text-decoration: none;
+  padding: 8px 12px;
+  background-color: red;
+  color: #fff;
+  border-radius: 5px;
+  margin: 0px 5px;
+  border: 1px solid white;
+  font-weight: 550;
+  font-size: 13px;
+}
+
 @media (min-width: 580px) {
   .expense-item__description {
     flex-direction: row;

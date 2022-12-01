@@ -1,7 +1,8 @@
 .new-expense {
   /* background-color: #a892ee; */
   /* background-color: rgb(31, 31, 31); */
-  background-image: linear-gradient(to right, #000428, #004e92);
+  /* background-image: linear-gradient(to right, #000428, #004e92); */
+  background-image: linear-gradient(to right, #7f53ac, #647dee);
   padding: 1rem;
   margin: 2rem auto;
   width: 50rem;
